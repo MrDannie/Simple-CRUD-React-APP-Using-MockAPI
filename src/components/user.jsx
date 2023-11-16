@@ -11,7 +11,7 @@ const handleDelete = () => {
 			<span>{name}</span>
 			<span>{email}</span>
 			<span>
-				<button>edit</button>
+				{/* <button>edit</button> */}
 				<button onClick={handleDelete}>delete</button>
 			</span>
 		</div>
